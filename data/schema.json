@@ -1,0 +1,226 @@
+{
+  "format_version": 1,
+  "synthetic": true,
+  "tables": {
+    "connections": {
+      "description": "户表与馈线、服务类别的有效区间",
+      "columns": {
+        "id": {
+          "type": "string",
+          "description": "接线段"
+        },
+        "household": {
+          "type": "string",
+          "description": "匿名户"
+        },
+        "feeder": {
+          "type": "string",
+          "description": "馈线"
+        },
+        "start": {
+          "type": "integer",
+          "description": "起分钟"
+        },
+        "end": {
+          "type": "integer",
+          "description": "止分钟"
+        },
+        "service_class": {
+          "type": "string",
+          "description": "服务类别"
+        }
+      },
+      "refs": {}
+    },
+    "plans": {
+      "description": "计划及通知范围；收到通知的户不随接线迁移自动增加",
+      "columns": {
+        "id": {
+          "type": "string",
+          "description": "计划"
+        },
+        "feeder": {
+          "type": "string",
+          "description": "馈线"
+        },
+        "start": {
+          "type": "integer",
+          "description": "起分钟"
+        },
+        "end": {
+          "type": "integer",
+          "description": "止分钟"
+        },
+        "notified": {
+          "type": "array",
+          "description": "已有效通知户"
+        },
+        "state": {
+          "type": "string",
+          "description": "已通知或撤销"
+        }
+      },
+      "refs": {}
+    },
+    "switch_events": {
+      "description": "开关实际影响与计划独立存在",
+      "columns": {
+        "id": {
+          "type": "string",
+          "description": "事件"
+        },
+        "feeder": {
+          "type": "string",
+          "description": "馈线"
+        },
+        "start": {
+          "type": "integer",
+          "description": "失电起"
+        },
+        "end": {
+          "type": "integer",
+          "description": "恢复止"
+        },
+        "kind": {
+          "type": "string",
+          "description": "故障或计划"
+        }
+      },
+      "refs": {}
+    },
+    "meter_reports": {
+      "description": "户表可核实窗口；空缺不是供电证据",
+      "columns": {
+        "id": {
+          "type": "string",
+          "description": "回报"
+        },
+        "household": {
+          "type": "string",
+          "description": "匿名户"
+        },
+        "start": {
+          "type": "integer",
+          "description": "起"
+        },
+        "end": {
+          "type": "integer",
+          "description": "止"
+        },
+        "state": {
+          "type": "string",
+          "description": "供电或失电或缺报"
+        }
+      },
+      "refs": {}
+    },
+    "appeals": {
+      "description": "用户异议及裁定记录",
+      "columns": {
+        "id": {
+          "type": "string",
+          "description": "异议"
+        },
+        "household": {
+          "type": "string",
+          "description": "户"
+        },
+        "event": {
+          "type": "string",
+          "description": "事件"
+        },
+        "finding": {
+          "type": "string",
+          "description": "裁定"
+        },
+        "known_day": {
+          "type": "integer",
+          "description": "获知日序"
+        }
+      },
+      "refs": {}
+    },
+    "payments": {
+      "description": "已发补偿，金额分",
+      "columns": {
+        "id": {
+          "type": "string",
+          "description": "支付"
+        },
+        "household": {
+          "type": "string",
+          "description": "户"
+        },
+        "period": {
+          "type": "string",
+          "description": "所属期"
+        },
+        "amount_cents": {
+          "type": "integer",
+          "description": "金额"
+        },
+        "paid_day": {
+          "type": "integer",
+          "description": "支付日序"
+        }
+      },
+      "refs": {}
+    },
+    "transfer_windows": {
+      "description": "备选转供有效窗口及负担人数上限",
+      "columns": {
+        "id": {
+          "type": "string",
+          "description": "转供"
+        },
+        "from_feeder": {
+          "type": "string",
+          "description": "原馈线"
+        },
+        "to_feeder": {
+          "type": "string",
+          "description": "目标"
+        },
+        "start": {
+          "type": "integer",
+          "description": "起"
+        },
+        "end": {
+          "type": "integer",
+          "description": "止"
+        },
+        "max_households": {
+          "type": "integer",
+          "description": "最大转供户"
+        }
+      },
+      "refs": {}
+    },
+    "rules": {
+      "description": "每户补偿及轮停保护合同",
+      "columns": {
+        "id": {
+          "type": "string",
+          "description": "服务类别"
+        },
+        "max_continuous_minutes": {
+          "type": "integer",
+          "description": "连续中断上限"
+        },
+        "free_planned_minutes": {
+          "type": "integer",
+          "description": "有效通知计划豁免"
+        },
+        "rate_cents_per_minute": {
+          "type": "integer",
+          "description": "每分钟分"
+        },
+        "notice_lead_minutes": {
+          "type": "integer",
+          "description": "通知提前量"
+        }
+      },
+      "refs": {}
+    }
+  }
+}

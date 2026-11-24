@@ -1,0 +1,10 @@
+[
+  {
+    "id": "t1",
+    "from_feeder": "F1",
+    "to_feeder": "F2",
+    "start": 900,
+    "end": 1020,
+    "max_households": 4
+  }
+]

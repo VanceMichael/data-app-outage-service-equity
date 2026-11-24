@@ -1,0 +1,16 @@
+[
+  {
+    "id": "pay1",
+    "household": "h1",
+    "period": "2026-10",
+    "amount_cents": 1000,
+    "paid_day": 31
+  },
+  {
+    "id": "pay2",
+    "household": "h2",
+    "period": "2026-10",
+    "amount_cents": 500,
+    "paid_day": 31
+  }
+]

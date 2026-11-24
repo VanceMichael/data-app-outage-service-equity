@@ -1,0 +1,16 @@
+[
+  {
+    "id": "a1",
+    "household": "h1",
+    "event": "e1",
+    "finding": "现场证实600分钟恢复",
+    "known_day": 33
+  },
+  {
+    "id": "a2",
+    "household": "h0",
+    "event": "p1",
+    "finding": "通知时尚未迁入；不构成有效通知",
+    "known_day": 32
+  }
+]

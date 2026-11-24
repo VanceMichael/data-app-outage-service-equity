@@ -1,0 +1,170 @@
+[
+  {
+    "id": "m0",
+    "household": "h0",
+    "start": 550,
+    "end": 610,
+    "state": "缺报"
+  },
+  {
+    "id": "m1",
+    "household": "h1",
+    "start": 550,
+    "end": 610,
+    "state": "失电"
+  },
+  {
+    "id": "m2",
+    "household": "h2",
+    "start": 550,
+    "end": 610,
+    "state": "失电"
+  },
+  {
+    "id": "m3",
+    "household": "h3",
+    "start": 550,
+    "end": 610,
+    "state": "失电"
+  },
+  {
+    "id": "m4",
+    "household": "h4",
+    "start": 550,
+    "end": 610,
+    "state": "失电"
+  },
+  {
+    "id": "m5",
+    "household": "h5",
+    "start": 550,
+    "end": 610,
+    "state": "缺报"
+  },
+  {
+    "id": "m6",
+    "household": "h6",
+    "start": 550,
+    "end": 610,
+    "state": "失电"
+  },
+  {
+    "id": "m7",
+    "household": "h7",
+    "start": 550,
+    "end": 610,
+    "state": "失电"
+  },
+  {
+    "id": "m8",
+    "household": "h8",
+    "start": 550,
+    "end": 610,
+    "state": "失电"
+  },
+  {
+    "id": "m9",
+    "household": "h9",
+    "start": 550,
+    "end": 610,
+    "state": "失电"
+  },
+  {
+    "id": "m10",
+    "household": "h10",
+    "start": 550,
+    "end": 610,
+    "state": "缺报"
+  },
+  {
+    "id": "m11",
+    "household": "h11",
+    "start": 550,
+    "end": 610,
+    "state": "失电"
+  },
+  {
+    "id": "m12",
+    "household": "h12",
+    "start": 550,
+    "end": 610,
+    "state": "供电"
+  },
+  {
+    "id": "m13",
+    "household": "h13",
+    "start": 550,
+    "end": 610,
+    "state": "供电"
+  },
+  {
+    "id": "m14",
+    "household": "h14",
+    "start": 550,
+    "end": 610,
+    "state": "供电"
+  },
+  {
+    "id": "m15",
+    "household": "h15",
+    "start": 550,
+    "end": 610,
+    "state": "缺报"
+  },
+  {
+    "id": "m16",
+    "household": "h16",
+    "start": 550,
+    "end": 610,
+    "state": "供电"
+  },
+  {
+    "id": "m17",
+    "household": "h17",
+    "start": 550,
+    "end": 610,
+    "state": "供电"
+  },
+  {
+    "id": "m18",
+    "household": "h18",
+    "start": 550,
+    "end": 610,
+    "state": "供电"
+  },
+  {
+    "id": "m19",
+    "household": "h19",
+    "start": 550,
+    "end": 610,
+    "state": "供电"
+  },
+  {
+    "id": "m20",
+    "household": "h20",
+    "start": 550,
+    "end": 610,
+    "state": "缺报"
+  },
+  {
+    "id": "m21",
+    "household": "h21",
+    "start": 550,
+    "end": 610,
+    "state": "供电"
+  },
+  {
+    "id": "m22",
+    "household": "h22",
+    "start": 550,
+    "end": 610,
+    "state": "供电"
+  },
+  {
+    "id": "m23",
+    "household": "h23",
+    "start": 550,
+    "end": 610,
+    "state": "供电"
+  }
+]

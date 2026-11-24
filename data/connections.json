@@ -1,0 +1,202 @@
+[
+  {
+    "id": "c0",
+    "household": "h0",
+    "feeder": "F1",
+    "start": 0,
+    "end": 500,
+    "service_class": "保护"
+  },
+  {
+    "id": "c1",
+    "household": "h1",
+    "feeder": "F1",
+    "start": 0,
+    "end": 1440,
+    "service_class": "普通"
+  },
+  {
+    "id": "c2",
+    "household": "h2",
+    "feeder": "F1",
+    "start": 0,
+    "end": 1440,
+    "service_class": "普通"
+  },
+  {
+    "id": "c3",
+    "household": "h3",
+    "feeder": "F1",
+    "start": 0,
+    "end": 1440,
+    "service_class": "普通"
+  },
+  {
+    "id": "c4",
+    "household": "h4",
+    "feeder": "F1",
+    "start": 0,
+    "end": 1440,
+    "service_class": "普通"
+  },
+  {
+    "id": "c5",
+    "household": "h5",
+    "feeder": "F1",
+    "start": 0,
+    "end": 1440,
+    "service_class": "普通"
+  },
+  {
+    "id": "c6",
+    "household": "h6",
+    "feeder": "F1",
+    "start": 0,
+    "end": 1440,
+    "service_class": "普通"
+  },
+  {
+    "id": "c7",
+    "household": "h7",
+    "feeder": "F1",
+    "start": 0,
+    "end": 1440,
+    "service_class": "普通"
+  },
+  {
+    "id": "c8",
+    "household": "h8",
+    "feeder": "F1",
+    "start": 0,
+    "end": 1440,
+    "service_class": "保护"
+  },
+  {
+    "id": "c9",
+    "household": "h9",
+    "feeder": "F1",
+    "start": 0,
+    "end": 1440,
+    "service_class": "普通"
+  },
+  {
+    "id": "c10",
+    "household": "h10",
+    "feeder": "F1",
+    "start": 0,
+    "end": 1440,
+    "service_class": "普通"
+  },
+  {
+    "id": "c11",
+    "household": "h11",
+    "feeder": "F1",
+    "start": 0,
+    "end": 1440,
+    "service_class": "普通"
+  },
+  {
+    "id": "c12",
+    "household": "h12",
+    "feeder": "F2",
+    "start": 0,
+    "end": 1440,
+    "service_class": "普通"
+  },
+  {
+    "id": "c13",
+    "household": "h13",
+    "feeder": "F2",
+    "start": 0,
+    "end": 1440,
+    "service_class": "普通"
+  },
+  {
+    "id": "c14",
+    "household": "h14",
+    "feeder": "F2",
+    "start": 0,
+    "end": 1440,
+    "service_class": "普通"
+  },
+  {
+    "id": "c15",
+    "household": "h15",
+    "feeder": "F2",
+    "start": 0,
+    "end": 1440,
+    "service_class": "普通"
+  },
+  {
+    "id": "c16",
+    "household": "h16",
+    "feeder": "F2",
+    "start": 0,
+    "end": 1440,
+    "service_class": "保护"
+  },
+  {
+    "id": "c17",
+    "household": "h17",
+    "feeder": "F2",
+    "start": 0,
+    "end": 1440,
+    "service_class": "普通"
+  },
+  {
+    "id": "c18",
+    "household": "h18",
+    "feeder": "F2",
+    "start": 0,
+    "end": 1440,
+    "service_class": "普通"
+  },
+  {
+    "id": "c19",
+    "household": "h19",
+    "feeder": "F2",
+    "start": 0,
+    "end": 1440,
+    "service_class": "普通"
+  },
+  {
+    "id": "c20",
+    "household": "h20",
+    "feeder": "F2",
+    "start": 0,
+    "end": 1440,
+    "service_class": "普通"
+  },
+  {
+    "id": "c21",
+    "household": "h21",
+    "feeder": "F2",
+    "start": 0,
+    "end": 1440,
+    "service_class": "普通"
+  },
+  {
+    "id": "c22",
+    "household": "h22",
+    "feeder": "F2",
+    "start": 0,
+    "end": 1440,
+    "service_class": "普通"
+  },
+  {
+    "id": "c23",
+    "household": "h23",
+    "feeder": "F2",
+    "start": 0,
+    "end": 1440,
+    "service_class": "普通"
+  },
+  {
+    "id": "move",
+    "household": "h0",
+    "feeder": "F2",
+    "start": 500,
+    "end": 1440,
+    "service_class": "保护"
+  }
+]

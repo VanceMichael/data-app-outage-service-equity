@@ -1,0 +1,25 @@
+[
+  {
+    "id": "p1",
+    "feeder": "F1",
+    "start": 540,
+    "end": 660,
+    "notified": [
+      "h1",
+      "h2",
+      "h3"
+    ],
+    "state": "已通知"
+  },
+  {
+    "id": "p2",
+    "feeder": "F2",
+    "start": 1000,
+    "end": 1060,
+    "notified": [
+      "h12",
+      "h13"
+    ],
+    "state": "已通知"
+  }
+]

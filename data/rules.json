@@ -1,0 +1,16 @@
+[
+  {
+    "id": "普通",
+    "max_continuous_minutes": 120,
+    "free_planned_minutes": 60,
+    "rate_cents_per_minute": 10,
+    "notice_lead_minutes": 120
+  },
+  {
+    "id": "保护",
+    "max_continuous_minutes": 20,
+    "free_planned_minutes": 0,
+    "rate_cents_per_minute": 20,
+    "notice_lead_minutes": 120
+  }
+]

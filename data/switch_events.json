@@ -1,0 +1,23 @@
+[
+  {
+    "id": "e1",
+    "feeder": "F1",
+    "start": 530,
+    "end": 630,
+    "kind": "故障"
+  },
+  {
+    "id": "e2",
+    "feeder": "F1",
+    "start": 540,
+    "end": 660,
+    "kind": "计划"
+  },
+  {
+    "id": "e3",
+    "feeder": "F2",
+    "start": 560,
+    "end": 580,
+    "kind": "故障"
+  }
+]
